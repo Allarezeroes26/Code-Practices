@@ -1,3 +1,5 @@
+# This is gonna be my daily coding exercise thingy 
+
 Python Object-Oriented Programming & Loops Exercises
 ---
 ## 1. House Cleaner Bot
