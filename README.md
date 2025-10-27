@@ -16,9 +16,6 @@ Each day, the student studies several subjects — one by one — before finishi
 Your program should show what the student is studying each day and list all subjects studied. After each day, it should print a summary showing the day’s progress.
 The studying continues for multiple days.
 
-🧠 Goal: Use a for loop to repeat studying for multiple days, and another for loop inside it to go through each subject.
-Focus on nested loops and clean, readable output.
-
 ---
 
 ## 3. Zoo Animal Routine
