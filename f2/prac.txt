@@ -1,0 +1,32 @@
+Power Cleaner Bot
+
+Your robot doesn’t just clean — it also tracks battery power and cleaning efficiency.
+Each room cleaned reduces the battery by 15%, and the robot can only clean while the battery is above 0%.
+When the battery runs low, it recharges to full (100%).
+
+Requirements:
+Use a while loop to keep cleaning until all rooms (e.g. 5) are done.
+Subtract 15 from battery power each time.
+When the battery is ≤ 0, print “Recharging…”, set it back to 100, and continue.
+When all rooms are done, print the total battery used.
+Concepts: while loops, subtraction, condition-based reset.
+
+
+
+Car Race Energy Simulation
+
+You’re simulating a car race.
+Each car has fuel, speed, and distance_covered.
+Every lap:
+
+The car travels a distance = speed * 2
+
+Fuel decreases by 10
+
+Print the car’s current lap number, distance, and fuel.
+When fuel ≤ 0, the car must refuel (add +50 fuel) before continuing.
+
+At the end, print the total distance traveled and number of refuels.
+
+Concepts: multiplication, subtraction, cumulative total, conditional refill.
+Goal: Practice numeric state tracking inside a loop.
