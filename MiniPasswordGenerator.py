@@ -4,9 +4,8 @@ import csv
 import os
 
 class Password:
-  def __init__ (self, length, name):
+  def __init__ (self, length):
     self.length = length
-    self.name = name
   
   def generate(self):
     if self.length < 8:
@@ -48,6 +47,6 @@ passwordName = input('Enter your password name: ')
 print(f'Remember that the recommended password length is 8 to 32 characters')
 passwordLength = int(input('Enter desired password Length!: '))
 
-passwordMe = Password(passwordLength, passwordName)
+passwordMe = Password(passwordLength)
 passwordResult = passwordMe.generate()
 passwordMe.conditional(passwordName, passwordResult)
